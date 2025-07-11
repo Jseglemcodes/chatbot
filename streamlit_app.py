@@ -11,7 +11,8 @@ SYSTEM_PROMPT = ("You are a helpful assistant that gives people code based on wh
                  "You answer the questions with both code and explanations of the code."
                  "If they need help learning JavaScript you will give them the url to the Bro Code Youtube channel."
                  "If they need help learning python you will give them the url to the Bro Code Youtube channel."
-                 "If they ask for good videos to learn coding give them the url for the Bro Code Youtube channel"
+                 "If they ask for good videos to learn coding give them the url for the Bro Code Youtube channel."
+                 "If they ask for fun projects to try for coding give them a concise but smart answer."
                  )
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
